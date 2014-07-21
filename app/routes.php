@@ -13,5 +13,6 @@
 
 Route::get('/', function()
 {
+    echo App::environment()."<br>";
 	return View::make('hello');
 });

@@ -26,7 +26,7 @@ return array(
 	|
 	*/
 
-	'url' => 'http://localhost',
+	'url' => 'http://localhost/lnew/laravel',
 
 	/*
 	|--------------------------------------------------------------------------
@@ -122,6 +122,7 @@ return array(
 		'Illuminate\View\ViewServiceProvider',
 		'Illuminate\Workbench\WorkbenchServiceProvider',
 
+        'Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider',
 	),
 
 	/*
